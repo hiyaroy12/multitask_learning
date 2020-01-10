@@ -13,8 +13,8 @@ import sys
 sys.path.append(os.getcwd())
 from nets import model as model
 from utils.tf_records import read_tfrecord_and_decode_into_image_annotation_pair_tensors
-from utils.pascal_voc import pascal_segmentation_lut
-# from utils.arroyo import arroyo_segmentation_lut as pascal_segmentation_lut
+#from utils.pascal_voc import pascal_segmentation_lut
+from utils.arroyo import arroyo_segmentation_lut as pascal_segmentation_lut
 
 from utils.augmentation import (distort_randomly_image_color,flip_randomly_left_right_image_with_annotation,
                                 scale_randomly_image_with_annotation_with_fixed_size_output)

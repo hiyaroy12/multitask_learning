@@ -28,10 +28,10 @@ data preparation:
 
 training:
 --------------------------------------------------------------------------------------------------------------------
--	download the pretrain model of resnet_v1_101.ckpt, you can download it from 		         https://www.dropbox.com/s/188uyrunr32f14c/resnet_v1_101.ckpt?dl=0
 -	run convert_arroyo_to_tfrecords.py to convert training data into .tfrecords or you can download it here: 
 https://www.dropbox.com/s/0ag1ywvq0t3nqf9/pascal_train_arroyo.tfrecords?dl=0 https://www.dropbox.com/s/8qd34kgqjujvm0p/pascal_val_arroyo.tfrecords?dl=0
 -	run python RefineNet/multi_gpu_train.py 
+	- you can download the pretrain model of resnet_v1_101.ckpt here:		         https://www.dropbox.com/s/188uyrunr32f14c/resnet_v1_101.ckpt?dl=0
 
 
 validation:

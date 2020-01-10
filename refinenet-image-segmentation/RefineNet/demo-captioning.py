@@ -156,10 +156,10 @@ def main(argv=None):
                 feat_list.append(feats)
             
             np_feats = np.concatenate(feat_list, axis = 0)
-            #np.save('/home3/hiya/Data/jpl/annotations/scoti/resnet101_arroyo_features.npy', np_feats)
-            np.savez('/home3/hiya/Data/jpl/annotations/scoti/resnet101_arroyo_features.npz', 
+            np.save('/home3/hiya/Data/jpl/annotations/scoti/resnet101_arroyo_features.npy', np_feats)
+            #np.savez('/home3/hiya/Data/jpl/annotations/scoti/resnet101_arroyo_features.npz', 
                     image=all_files, caption=all_captions, feats=np_feats)
-            import ipdb; ipdb.set_trace()
+            #import ipdb; ipdb.set_trace()
             
 
 

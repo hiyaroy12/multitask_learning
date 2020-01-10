@@ -57,7 +57,6 @@ training:
 --------------------------------------------------------------------------------------------------------------------
 - RefineNet/demo-captioning.py generates the feature vector ‘resnet101_arroyo_features.npy’ available at: https://www.dropbox.com/s/v00i6werrbkkl5z/resnet101_arroyo_features.npy?dl=0
 	- To run this file make sure your pwd is refinenet-image-segmentation/ and run python RefineNet/demo_captioning.py to generate features on your own.
-	- After generating or downloading the ‘resnet101_arroyo_features.npy’ file put it under models/
 
 - To train the image captioning model, run SCOTI/codes/mica/ train_arroyo.py
 

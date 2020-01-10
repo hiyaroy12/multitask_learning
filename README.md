@@ -44,9 +44,9 @@ validation:
 --------------------------------------------------------------------------------------------------------------------
 SCOTI-captioning:
 --------------------------------------------------------------------------------------------------------------------
-##This is a TensorFlow implementation of Show, Attend and Tell: Neural Image Caption Generation with Visual Attention which introduces an attention based image caption generator. https://arxiv.org/abs/1502.03044 
+This is a TensorFlow implementation of Show, Attend and Tell: Neural Image Caption Generation with Visual Attention which introduces an attention based image caption generator. https://arxiv.org/abs/1502.03044 
 
-##In case of our proposed “universal encoder” we use the features from RefineNet and use it for training the LSTM module of Show, Attend and Tell model.
+In case of our proposed “universal encoder” we use the features from RefineNet and use it for training the LSTM module of Show, Attend and Tell model.
 -	pycocoevalcap is expected to be in SCOTI/codes/mica/
 
 data preparation

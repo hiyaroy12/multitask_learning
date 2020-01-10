@@ -16,8 +16,8 @@ requirements:
 
 data preparation:
 --------------------------------------------------------------------------------------------------------------------
--	arroyo images and corresponding SPOC and SCOTI labels used are available at: 
-
+-	Arroyo images that I have used are located here: fornat1:/home/maars/data/arroyo_img_labels/images>
+        Corresponding labels for spoc and scoti: fornat1:/home/maars/data/arroyo_img_labels/label> 
 -	More details about dataset: 
 	utils/arroyo.py 
   	- Class ‘ambiguous’ refers to as the 255-labeled pixels, we ignore it for both training and inference.

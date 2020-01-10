@@ -1,5 +1,4 @@
-## multitask_learning
-Segmentation and captioning
+## multitask_learning (segmentation and captioning)
 --------------------------------------------------------------------------------------------------------------------
 ##SPOC:
 --------------------------------------------------------------------------------------------------------------------
@@ -42,6 +41,7 @@ https://www.dropbox.com/s/0ag1ywvq0t3nqf9/pascal_train_arroyo.tfrecords?dl=0 htt
 
 
 
+--------------------------------------------------------------------------------------------------------------------
 ##SCOTI-captioning:
 --------------------------------------------------------------------------------------------------------------------
 ##This is a TensorFlow implementation of Show, Attend and Tell: Neural Image Caption Generation with Visual Attention which introduces an attention based image caption generator.

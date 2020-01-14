@@ -1,6 +1,3 @@
-# coding: utf-8
-pascal_root = '/home3/hiya/Data/pascal_voc_seg/VOCdevkit/VOC2012'
-
 from utils.arroyo import get_augmented_pascal_image_annotation_filename_pairs
 from utils.tf_records import write_image_annotation_pairs_to_tfrecord
 

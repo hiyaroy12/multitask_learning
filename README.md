@@ -5,7 +5,7 @@ SPOC:
 
 Introduction:
 --------------------------------------------------------------------------------------------------------------------
-this is a tensorflow implement of the paper: RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation [arxiv:1611.06612](https://arxiv.org/abs/1611.06612)
+this is a tensorflow implementation of the paper: RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation [arxiv:1611.06612](https://arxiv.org/abs/1611.06612)
 
 requirements:
 --------------------------------------------------------------------------------------------------------------------
